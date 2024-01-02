@@ -1,5 +1,10 @@
 ### Hi there 👋
 
+<p align="center">
+  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=polirritmico&show_icons=true&count_private=true&line_height=28&hide_border=1&include_all_commits=true&card_width=450&role=OWNER,COLLABORATOR&theme=github_dark" />
+</p>
+
+[![Polirritmico's GitHub stats](https://github-readme-stats.vercel.app/api?username=polirritmico)](https://github.com/polirritmico/polirritmico)
 <!--
 **polirritmico/polirritmico** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
