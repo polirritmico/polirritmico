@@ -17,7 +17,7 @@ jobs:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&theme=github_dark
           path: profile/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PROFILE_TOKEN }}
 
       - name: Generate stats card (light)
         uses: readme-tools/github-readme-stats-action@v1
@@ -25,7 +25,7 @@ jobs:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&theme=default
           path: profile/stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PROFILE_TOKEN }}
 
       - name: Generate top languages card (dark)
         uses: readme-tools/github-readme-stats-action@v1
@@ -33,7 +33,7 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide=Jupyter%20Notebook&theme=github_dark
           path: profile/langs-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PROFILE_TOKEN }}
 
       - name: Generate top languages card (light)
         uses: readme-tools/github-readme-stats-action@v1
@@ -41,7 +41,7 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide=Jupyter%20Notebook&theme=default
           path: profile/langs-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PROFILE_TOKEN }}
 
       - name: Commit cards
         run: |
