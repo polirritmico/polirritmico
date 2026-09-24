@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Eduardo Bray's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 313, Total Commits  (last year) : 2589, Total PRs: 160, Total Issues: 161, Contributed to (last year): 29</desc>
+        <desc id="descId">Total Stars Earned: 313, Total Commits  (last year) : 2597, Total PRs: 160, Total Issues: 161, Contributed to (last year): 29</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 47.35081286803833;
+        stroke-dashoffset: 47.35011175210586;
       }
     }
   
